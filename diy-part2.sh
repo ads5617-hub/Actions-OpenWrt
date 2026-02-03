@@ -18,3 +18,9 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+
+# ===== daed & luci-app-daed =====
+git clone https://github.com/daeuniverse/dae.git package/dae
+git clone https://github.com/daeuniverse/daed.git package/daed
+git clone https://github.com/QiuSimons/luci-app-daed.git package/luci-app-daed
+
